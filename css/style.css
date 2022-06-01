@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:500&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    background-color: black !important;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.navigation-content{
+    z-index: 1;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position:fixed;
+}
+
+.navigation-links{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navigation-links a {
+    color: whitesmoke;
+    margin-top: 10px;
+    opacity: .8;
+    transition: all .4s ease;
+    font-size: 15px;
+    font-family:poppins;
+}
+
+.navigation-links a:hover{
+    opacity: 1;
+}
+
+.social-media-links{
+    height: 100vh;
+    position: fixed;
+    z-index: 2;
+    padding: 15px;
+    left:0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social-media{
+    color: white;
+    text-align: center;
+    width: 35px;
+    padding: 20px 0;
+    opacity: .6;
+    margin: 8px;
+    transition: all .4s ease;
+    font-size: 24px;
+}
+
+
+.social-media:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+main{
+    padding:10%;
+}
+p{
+    color: aliceblue;
+}
+
+#home-link{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .navigation-content{
+        height: 100vh;
+    }
+    .navigation-links{
+        width: 100vw;
+        min-height: 250px;
+        flex-direction: column;
+        align-items: center;
+        background-color: rgb(0, 0, 0);
+        transform: translateX(100%);
+        transition: 0.5s;
+        z-index: 999;
+    }
+
+    #home-link{
+        display: block;
+    }
+
+    .social-media-links{
+        position: relative;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        transform: translateX(100%);
+        transition: 0.5s;
+        z-index: 999;
+    }
+
+    .hamburger-menu{
+        display: block;
+        text-align: end;
+        padding-top: 10px;
+        width: 100%;
+        padding-bottom: 10px;
+        cursor: pointer;
+        background-color: black;
+    }
+
+    .hamburger-menu i{
+        font-size: 25px;
+        filter: invert(100%);
+        margin-right: 20px;
+    }
+
+    main{
+        padding-top:20%;
+    }
+
+    .nav-menu-visible{
+        transform: translateX(0);
+        
+    }
+    .aside-menu-visible{
+        transform: translateX(0);
+
+    }
+}
