@@ -1,110 +1,289 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Alex Rodriguez</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/project.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/project.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
     <script defer src="js/style.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="navigation-content">
-            <div class="hamburger-menu">
-                <i class="fa-solid fa-bars"></i>
-
-            </div>
-            <div id="nav-menu" class="navigation-links">
-                <a href="#" data-text="HOME" id="home-link">HOME</a>
-                <a href="#" data-text="ABOUT" id="about-link">ABOUT</a>
-                <a href="#" data-text="PROJECT" id="project-link">PROJECTS</a>
-            </div>
-            <aside id="aside-menu" class="social-media-links">
-                <a href="https://github.com/AlexRodriguezVillavicencio" target="blank" rel="noopener noreferrer"><i class="social-media fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/alexrodriguezvillavicencio/" target="blank" rel="noopener noreferrer"><i class="social-media fa-brands fa-linkedin"></i></a>
-                <a href="https://www.kaggle.com/alexrodriguezvilla" target="blank" rel="noopener noreferrer"><i class="social-media fa-brands fa-kaggle"></i></a>
-            </aside>
-        </nav>
+      <nav class="navigation-content">
+        <div class="hamburger-menu">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <div id="nav-menu" class="navigation-links">
+          <a href="#" data-text="HOME" id="home-link">Inicio</a>
+          <a href="#" data-text="ABOUT" id="about-link">Sobre Mi</a>
+          <a href="#" data-text="PROJECT" id="project-link">Proyectos</a>
+        </div>
+        <aside id="aside-menu" class="social-media-links">
+          <a
+            href="https://github.com/AlexRodriguezVillavicencio"
+            target="blank"
+            rel="noopener noreferrer"
+            ><i class="social-media fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/alexrodriguezvillavicencio/"
+            target="blank"
+            rel="noopener noreferrer"
+            ><i class="social-media fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.kaggle.com/alexrodriguezvilla"
+            target="blank"
+            rel="noopener noreferrer"
+            ><i class="social-media fa-brands fa-kaggle"></i
+          ></a>
+        </aside>
+      </nav>
     </header>
     <main>
-        <div id="home">
-            <div class="home-box">
-                <div>Alex Rodriguez Villavicencio</div>
-                <div class="secondline">
-                    I'm a
-                    <span class="txt-rotate" data-period="1200"
-                        data-rotate='[ " Data Science.", " Machine Learning.", " Data Enginer." ]'></span>
-                    <span class="slash">|</span>
-                </div>
-            </div>
+      <div id="home">
+        <div class="home-box">
+          <div>Alex Rodriguez Villavicencio</div>
+          <div class="secondline">
+            <!-- I'm a -->
+            <span
+              class="txt-rotate"
+              data-period="1200"
+              data-rotate='[" Data Engineer", " Data Science", " Python Developer" ]'
+            ></span>
+            <span class="slash">|</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="about">
+        <div class="main-header">
+          Por qué <span class="color"> ¿Ingeniero de Datos? </span>
         </div>
 
-        <div id="about">
-            <div class="main-header">About <span class="color"> Me </span>
-                <span class="header-caption"> Get to Know <span class="color"> me.</span></span>
-            </div>
-            <div class="about-main">
-                <div class="about-first-paragraph">
-                    <span class="about-first-line">
-                        I'm creative
-                        <span class="color">web developer</span>
-                        based in New York , USA </span>
-                    <br>
-                    <span class="about-second-line"> With 20 years of experience as a professional Web developer, I
-                        have
-                        acquired the skills and knowledge necessary to make your project a success. I enjoy every
-                        step
-                        while working.</span>
-                    <div class="cv">
-                        <a href="#"><button>Download <span class="colors">CV</span></button></a>
-                    </div>
-                </div>
-            </div>
+        <span class="header-caption">
+          -> De Vendedor<span class="color"> a Ingeniero de datos</span></span
+        >
+        <div class="about-main">
+          <div class="about-first-paragraph">
+            <span class="about-second-line"
+              >mi primera <span class="color">developer</span>experiencia</span
+            >
+          </div>
         </div>
 
-        <div id="project">
-            <div class="main-header"> <span class="color"> My </span> Portfolio
-                <span class="header-caption"> Some Of My <span class="color"> Works</span></span>
+        <span class="header-caption">
+          -> De Científico<span class="color"> a Emprendedor</span></span
+        >
+        <div class="about-main">
+          <div class="about-first-paragraph">
+            <span class="about-second-line">mi primera experiencia</span>
+          </div>
+        </div>
+
+        <span class="header-caption">
+          -> De Emprendedor<span class="color"> a Vendedor</span></span
+        >
+        <div class="about-main">
+          <div class="about-first-paragraph">
+            <span class="about-second-line">mi primera experiencia</span>
+          </div>
+        </div>
+      </div>
+
+      <div id="project">
+        <div class="main-header"> Proyectos
+          <div class="project-main">
+            <div class="card">
+              <figure class="card__thumb">
+                <video class="video__container" autoplay muted loop>
+                  <source
+                    src="https://player.vimeo.com/external/370331493.sd.mp4?s=e90dcaba73c19e0e36f03406b47bbd6992dd6c1c&profile_id=139&oauth2_token_id=57447761"
+                    type="video/mp4"
+                  />
+                </video>
+
+                <figcaption class="card__caption">
+                  <h2 class="card__title">Mapa de Emsiones CO2</h2>
+                  <p class="card__snippet">
+                    En este proyecto se buscó dar una solución visual a los
+                    problemas de concientización medioambiental
+                  </p>
+                  <p class="card__snippet">
+                    <img src="img/svg/aws-ec2.svg" width="30px" height="30px" />
+                    <img src="img/svg/aws-s3.svg" width="30px" height="30px" />
+                    <img
+                      src="img/svg/Python-logo-notext.svg"
+                      width="30px"
+                      height="30px"
+                    />
+                    <img
+                      src="img/svg/postgresql.svg"
+                      width="30px"
+                      height="30px"
+                    />
+                    <img src="img/svg/nginx.svg" width="30px" height="30px" />
+                    <img
+                      src="img/svg/djangoproject.svg"
+                      width="30px"
+                      height="30px"
+                    />
+                    <img src="img/svg/docker.svg" width="30px" height="30px" />
+                    <img src="img/svg/git.svg" width="30px" height="30px" />
+                    <img
+                      src="img/svg/javascript.svg"
+                      width="30px"
+                      height="30px"
+                    />
+                  </p>
+                  <a href="" class="card__button">VER DEMO Y DESARROLLO</a>
+                </figcaption>
+              </figure>
             </div>
 
-            <div class="project-main">
-                <div class="project-image">
-                    <img src="img/portfolio-first.jpg" alt="project-first">
-                </div>
-                <div class="project-text">
-                    <h2>App Idea</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ut optio repellat cupiditate
-                        expedita eius dignissimos. Id cumque placeat minima ad laudantium suscipit voluptatem
-                        ducimus</p>
-                    <div class="button"><a href="#"><button><span class="index"> View Project<i
-                                        class="gg-arrow-right"></i></span></button></a></div>
-                </div>
+            <div class="card">
+              <figure class="card__thumb">
+                <video class="video__container" autoplay muted loop>
+                  <source
+                    src="https://player.vimeo.com/external/370331493.sd.mp4?s=e90dcaba73c19e0e36f03406b47bbd6992dd6c1c&profile_id=139&oauth2_token_id=57447761"
+                    type="video/mp4"
+                  />
+                </video>
+                <figcaption class="card__caption">
+                  <h2 class="card__title">Dashboard Covid-19</h2>
+                  <p class="card__snippet">
+                    En este proyecto se buscó dar una solución visual a los
+                    problemas de concientización medioambiental
+                  </p>
+                  <p class="card__snippet">
+                    <img
+                      src="img/svg/Python-logo-notext.svg"
+                      width="30px"
+                      height="30px"
+                    />
+                    <img
+                      style="filter: invert(80%)"
+                      src="img/svg/Pandas_logo.svg"
+                      width="90px"
+                      height="30px"
+                    />
+                    <img src="img/svg/jupyter.svg" width="30px" height="30px" />
+                    <img
+                      src="img/streamlit-logo-primary-colormark-lighttext.png"
+                      width="60px"
+                      height="30px"
+                    />
+                    <img
+                      style="filter: invert(80%)"
+                      src="img/svg/plotly_logo.svg"
+                      width="60px"
+                      height="30px"
+                    />
+                  </p>
+                  <a href="" class="card__button">VER DEMO Y DESARROLLO</a>
+                </figcaption>
+              </figure>
             </div>
-            <div class="project-main">
-                <div class="project-image">
-                    <img src="img/portfolio-first.jpg" alt="project-second">
-                </div>
-                <div class="project-text">
-                    <h2>Web Designing</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id cumque placeat minima ad
-                        laudantium
-                        suscipit
-                        voluptatem ducimus. Id cumque placeat minima ad laudantium suscipit voluptatem ducimus</p>
-                    <div class="button"><a href="#"><button><span class="index"> View Project<i
-                                        class="gg-arrow-right"></i></span></button></a></div>
-                </div>
+
+            <div class="card">
+              <figure class="card__thumb">
+                <video class="video__container" autoplay muted loop>
+                  <source
+                    src="https://player.vimeo.com/external/370331493.sd.mp4?s=e90dcaba73c19e0e36f03406b47bbd6992dd6c1c&profile_id=139&oauth2_token_id=57447761"
+                    type="video/mp4"
+                  />
+                </video>
+                <figcaption class="card__caption">
+                  <h2 class="card__title">Predicción Alquiler de Bicicletas</h2>
+                  <p class="card__snippet">
+                    En este proyecto se buscó dar una solución visual a los
+                    problemas de concientización medioambiental
+                  </p>
+                  <p class="card__snippet">
+                    <img
+                      src="img/svg/Python-logo-notext.svg"
+                      width="30px"
+                      height="30px"
+                    />
+                    <img
+                      style="filter: invert(80%)"
+                      src="img/svg/plotly_logo.svg"
+                      width="70px"
+                      height="30px"
+                    />
+                    <img src="img/svg/jupyter.svg" width="30px" height="30px" />
+                    <img
+                      style="filter: invert(80%)"
+                      src="img/svg/scikit-learn-seeklogo.com.svg"
+                      width="50px"
+                      height="30px"
+                    />
+                  </p>
+                  <a href="" class="card__button">VER DEMO Y DESARROLLO</a>
+                </figcaption>
+              </figure>
             </div>
+
+            <div class="card">
+              <figure class="card__thumb">
+                <video class="video__container" autoplay muted loop>
+                  <source
+                    src="https://player.vimeo.com/external/370331493.sd.mp4?s=e90dcaba73c19e0e36f03406b47bbd6992dd6c1c&profile_id=139&oauth2_token_id=57447761"
+                    type="video/mp4"
+                  />
+                </video>
+                <figcaption class="card__caption">
+                  <h2 class="card__title">API REST</h2>
+                  <p class="card__snippet">
+                    En este proyecto se buscó dar una solución visual a los
+                    problemas de concientización medioambiental
+                  </p>
+                  <p class="card__snippet">
+                    <img
+                      src="img/svg/Python-logo-notext.svg"
+                      width="30px"
+                      height="30px"
+                    />
+                    <img
+                      src="img/svg/djangoproject.svg"
+                      width="30px"
+                      height="30px"
+                    />
+                    <img
+                      src="img/svg/postgresql.svg"
+                      width="30px"
+                      height="30px"
+                    />
+                    <img
+                      style="filter: invert(80%)"
+                      src="img/svg/Pandas_logo.svg"
+                      width="90px"
+                      height="30px"
+                    />
+                  </p>
+                  <a href="" class="card__button">VER DEMO Y DESARROLLO</a>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
         </div>
+      </div>
     </main>
 
     <script src="js/jquery.min.js"></script>
-</body>
-
+  </body>
 </html>

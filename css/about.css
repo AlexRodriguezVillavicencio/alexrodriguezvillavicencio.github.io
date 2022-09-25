@@ -1,5 +1,6 @@
 #about{
     display: none;
+    border: 2px solid red;
 }
 
 .color{
@@ -13,20 +14,19 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    font-size: 45px;
+    font-size: 37px;
     font-family: raleway;
     transition: all .4s ease;
     color: whitesmoke;
-    padding:10px;
-    padding-bottom: 30px;
-    padding-top: 60px;
-    font-weight: 900;
+    padding-bottom: 60px;
+    padding-top: 10px;
+    font-weight: 600;
 }
 
 .header-caption{
     opacity:.8;
     display: block;
-    font-size: 20px;
+    font-size: 25px;
     font-family: raleway;
     padding: 8px;
     font-weight: 400;
@@ -35,39 +35,20 @@
     display: flex;
     text-align: center;
     color: whitesmoke;
+    border: 2px solid red;
 }
 .about-first-paragraph{
     font-family: poppins;
-    width: 80%;  
+    width: 45%;  
     max-width: 768px; 
-    align-items: center;
-    margin: auto;
+    border: 2px solid red;
+    margin-left: 5%;
 }
 .about-first-paragraph .color{
-    font-size: 32px;
-}
-.about-first-line{
-    font-size: 30px;
-    margin-bottom: 10px;
-    display: block;
+    font-size: 16px;
 }
 .about-second-line{
-    font-size: 20px;
-}
-.cv a button{
-    margin-top: 20px;
-    padding: 20px 30px;
-    outline-style: none;
-    font-size:20px;
-    font-family: aileron;
-    border-radius: 8px;
-    font-weight: 400;
-    cursor: pointer;
-    position: relative;
-    transition: all .4s ease;
-
-}
-.cv a button:hover{
-    opacity: 1;
-    transform: scale(1.05);
+    font-size: 16px;
+    font-weight: 100;
+    opacity:.8;
 }
