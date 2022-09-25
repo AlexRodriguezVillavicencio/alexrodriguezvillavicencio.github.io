@@ -6,9 +6,13 @@
     margin: 0%;
     box-sizing: border-box;
     text-decoration: none;
+    font-size: 62.5%;
 }
 html{
     background-color: black !important;
+}
+html *, html *:before, html *:after {
+    box-sizing: inherit;
 }
 
 body{
