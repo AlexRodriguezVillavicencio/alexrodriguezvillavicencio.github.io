@@ -1,11 +1,11 @@
 #about{
     display: none;
-    border: 2px solid red;
 }
 
 .color{
     color: #c70039;
     transition: all .4s ease;
+    font-size: 25px;
 }
 
 .main-header{
@@ -22,6 +22,9 @@
     padding-top: 10px;
     font-weight: 600;
 }
+.main-header .color{
+    font-size: 37px;
+}
 
 .header-caption{
     opacity:.8;
@@ -29,26 +32,32 @@
     font-size: 25px;
     font-family: raleway;
     padding: 8px;
+    color: whitesmoke;
     font-weight: 400;
 }
 .about-main{
     display: flex;
-    text-align: center;
-    color: whitesmoke;
-    border: 2px solid red;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    color: whitesmoke;  
+    margin-top: 10px;
+    padding-bottom: 10px;
 }
 .about-first-paragraph{
-    font-family: poppins;
-    width: 45%;  
+    width: 55%;  
     max-width: 768px; 
-    border: 2px solid red;
     margin-left: 5%;
+    padding-right: 20px;
 }
 .about-first-paragraph .color{
     font-size: 16px;
 }
 .about-second-line{
+    font-family: Roboto;
     font-size: 16px;
-    font-weight: 100;
-    opacity:.8;
+    font-weight: 300;
+    line-height: 1.5em;
+    text-align: justify;
 }
