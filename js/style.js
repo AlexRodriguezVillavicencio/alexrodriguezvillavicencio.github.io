@@ -61,7 +61,6 @@ $(function () {
     }
     // INJECT CSS
     var css = document.createElement("style");
-    css.type = "text/css";
     css.innerHTML = ".txt-rotate > .color-text-dom { color: red;}";
     document.body.appendChild(css);
   };
