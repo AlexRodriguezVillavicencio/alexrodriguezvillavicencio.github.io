@@ -93,9 +93,7 @@ p{
 }
 
 @media (max-width: 768px){
-    .navigation-content{
-        height: 100vh;
-    }
+
     .navigation-links{
         width: 100vw;
         min-height: 250px;
@@ -106,14 +104,10 @@ p{
         transition: 0.5s;
         z-index: 999;
     }
-
-    #home-link{
-        display: block;
-    }
-
     .social-media-links{
-        position: relative;
         width: 100%;
+        top: 290px;
+        height: 70vh;
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -122,7 +116,6 @@ p{
         transition: 0.5s;
         z-index: 999;
     }
-
     .hamburger-menu{
         display: block;
         text-align: end;
@@ -132,23 +125,23 @@ p{
         cursor: pointer;
         background-color: black;
     }
-
+    #home-link{
+        display: block;
+    }
+    main{
+        padding-top:20%;
+    }
     .hamburger-menu i{
         font-size: 25px;
         filter: invert(100%);
         margin-right: 20px;
     }
-
-    main{
-        padding-top:20%;
-    }
-
     .nav-menu-visible{
         transform: translateX(0);
         
     }
     .aside-menu-visible{
         transform: translateX(0);
-
+    
     }
 }
