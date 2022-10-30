@@ -57,9 +57,9 @@
   
   .filterable-button .btn.selected,
   .filterable-button .btn:focus {
-    background-color: #747474;
+    background-color: #ff0000;
     color: #fff;
-    box-shadow: 0 0 0 2px #fff, 0 0 0 4px #747474;
+    box-shadow: 0 0 0 2px rgb(245, 6, 6), 0 0 0 4px #ca0000;
   }
   
   

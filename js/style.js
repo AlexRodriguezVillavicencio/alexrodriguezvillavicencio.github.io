@@ -77,6 +77,10 @@ const about = d.getElementById('about');
 const project = d.getElementById('project');
 
 
+var audio_click = new Audio("./audio/click.mp3")
+var audio_aire = new Audio("./audio/aire.mp3")
+audio_aire.volume = 0.3;
+var audio_calma = new Audio("./audio/calma.mp3")
 
 
 about_link.addEventListener('click', () => {
@@ -98,7 +102,7 @@ about_link.addEventListener('click', () => {
   home.style.display = 'none';
   project.style.display = 'none';
   about.style.display = 'block';
-
+  audio_calma.play();
 });
 
 
@@ -120,6 +124,7 @@ home_link.addEventListener('click', () => {
   home.style.display = 'block';
   project.style.display = 'none';
   about.style.display = 'none';
+  audio_calma.play();
 });
 
 project_link.addEventListener('click', () => {
@@ -140,4 +145,21 @@ project_link.addEventListener('click', () => {
   home.style.display = 'none';
   project.style.display = 'block';
   about.style.display = 'none';
+  audio_calma.pause();
 });
+
+
+$(document).ready(function(){
+  $('.btn-theme-outline').click(function(){
+      var value = $(this).attr('data-categories');
+      
+      if(value == 'all'){
+          $('.card').show('1');
+      }else{
+          $('.card').not('.' + value).hide('1');
+          $('.card').filter('.' + value).show('1');
+      }
+
+      $(this).addClass('selected').siblings().removeClass('selected');
+  })
+})
