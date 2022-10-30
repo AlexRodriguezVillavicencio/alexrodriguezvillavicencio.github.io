@@ -164,6 +164,7 @@ a:hover, a:active {
     border: 0;
     font-weight: 500;
     box-shadow: 0 0 0 2px #747474;
+    outline: none;
 }
 
 .btn-theme-outline:hover {
@@ -341,40 +342,8 @@ a:hover, a:active {
     background-color: #ef3724 !important;
 }
 
-.bg-theme-blue {
-    background-color: #2960f7 !important;
-}
-
-.bg-theme-green {
-    background-color: #8cc63f !important;
-}
-
-.bg-theme-orange {
-    background-color: #fd7e14 !important;
-}
-
-.bg-theme-purple {
-    background-color: #6f42c1 !important;
-}
-
 .fg-theme-red {
     color: #ef3724 !important;
-}
-
-.fg-theme-blue {
-    color: #2960f7 !important;
-}
-
-.fg-theme-green {
-    color: #8cc63f !important;
-}
-
-.fg-theme-orange {
-    color: #fd7e14 !important;
-}
-
-.fg-theme-purple {
-    color: #6f42c1 !important;
 }
 
 .fg-dark {
@@ -387,141 +356,6 @@ a:hover, a:active {
     font-weight: 400;
     margin: 12px 0
 }
-
-/* Social Color */
-.bg-facebook,
-.bg-hover-facebook:hover {
-    background-color: #3B5997 !important;
-}
-
-.bg-twitter,
-.bg-hover-twitter:hover {
-    background-color: #1DA1F2 !important;
-}
-
-.bg-linkedin,
-.bg-hover-linkedin:hover {
-    background-color: #0077B5 !important;
-}
-
-.bg-pinterest,
-.bg-hover-pinterest:hover {
-    background-color: #BD081C !important;
-}
-
-.bg-google-plus,
-.bg-hover-google-plus:hover {
-    background-color: #D11718 !important;
-}
-
-.bg-behance,
-.bg-hover-behance:hover {
-    background-color: #005CFF !important;
-}
-
-
-.bg-dribbble,
-.bg-hover-dribbble:hover {
-    background-color: #E84C88 !important;
-}
-
-.bg-github,
-.bg-hover-github:hover {
-    background-color: #323131 !important;
-}
-
-.bg-instagram,
-.bg-hover-instagram:hover {
-    background-color: #DC3472 !important;
-}
-
-.bg-medium,
-.bg-hover-medium:hover {
-    background-color: #00AB6C !important;
-}
-
-.bg-reddit,
-.bg-hover-reddit:hover {
-    background-color: #FF4501 !important;
-}
-
-.bg-snapchat,
-.bg-hover-snapchat:hover {
-    background-color: #FFFC00 !important;
-}
-
-.bg-tumblr,
-.bg-hover-tumblr:hover {
-    background-color: #01273A !important;
-}
-
-.bg-youtube,
-.bg-hover-youtube:hover {
-    background-color: #FE0002 !important;
-}
-
-/* 
-    4. Progressbar
-*/
-.progress-wrapper {
-    display: block;
-    margin: 10px 0;
-}
-
-.progress-wrapper .caption {
-    font-weight: 500;
-}
-
-.progress {
-    margin-top: 5px;
-    height: 1.25rem;
-    border: 2px solid #fff;
-    background-color: #fff;
-    box-shadow: 0 0 0 2px #747474;
-}
-
-.progress,
-.progress-bar {
-    border-radius: 30px;
-}
-
-.progress-bar {
-    font-size: 12px;
-    background-color: #747474;
-}
-
-/* 
-    5. Preloader
-*/
-
-/* 
-    6. Pagination
-*/
-.page-item:not(:last-child) .page-link {
-    margin-right: 8px;
-}
-
-.page-item.active .page-link {
-    background-color: #52565c;
-    color: #fff;
-}
-
-.page-link {
-    border: 0;
-    padding: 10px 16px;
-    background-color: #f2f4fa;
-    color: #52565c;
-}
-
-.page-link:hover {
-    color: #2C2D34;
-}
-
-.page-link:focus {
-    box-shadow: none;
-}
-
-
 /* 
     7. List style
 */
@@ -560,24 +394,6 @@ a:hover, a:active {
     border-radius: 50%;
     background-color: rgb(0, 0, 0);
     border: 2px solid #888;
-}
-
-/*
- *  8. Navigation 
- */
-.sticky {
-    top: 0;
-    z-index: 999;
-}
-
-.navbar-brand {
-    font-weight: 500;
-    padding-top: 12px;
-    padding-bottom: 12px;
-}
-
-.navbar-nav .nav-link {
-    padding: 14px 10px;
 }
 
 @media (min-width: 576px) {
@@ -1062,16 +878,6 @@ a:hover, a:active {
     padding: 0 16px;
 }
 
-.grid-item,
-.grid-sizer {
-    width: 100%;
-}
-
-.grid-item img {
-    width: 100%;
-    height: 100%;
-}
-
 .grid-item .img-place {
     display: block;
     margin: 0 auto;
@@ -1093,30 +899,12 @@ a:hover, a:active {
     z-index: 11;
 }
 
-.grid-item .img-caption p {
-    font-size: 14px;
-    margin-bottom: 0;
-}
-
-.grid-item .img-caption p::before {
-    content: "\2014";
-    margin-right: 5px;
-}
-
 @media (min-width: 768px) {
     .gridder .grid-item,
     .gridder .grid-sizer {
-        width: 50%;
+        width: 100%;
     }
 }
-
-@media (min-width: 992px) {
-    .gridder .grid-item,
-    .gridder .grid-sizer {
-        width: 33.33333%;
-    }
-}
-
 
 /* Theme color style */
 

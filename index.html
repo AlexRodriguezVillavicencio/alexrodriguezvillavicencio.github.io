@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/about.extends.css" />
     <link rel="stylesheet" href="css/project.css" />
+    <link rel="stylesheet" href="css/estilos.css">
 
     <link
       href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Roboto:wght@300&display=swap"
@@ -23,16 +24,16 @@
     <script defer src="js/style.js"></script>
   </head>
 
-  <body>
+  <body>    
     <header>
       <nav class="navigation-content">
         <div class="hamburger-menu">
           <i class="fa-solid fa-bars"></i>
         </div>
         <div id="nav-menu" class="navigation-links">
-          <a href="#" data-text="HOME" id="home-link">Inicio</a>
-          <a href="#" data-text="ABOUT" id="about-link">Sobre Mi</a>
-          <a href="#" data-text="PROJECT" id="project-link">Proyectos</a>
+          <a href="#" data-text="HOME" id="home-link" onclick="audio_aire.play()">Inicio</a>
+          <a href="#" data-text="ABOUT" id="about-link" onclick="audio_aire.play()">Sobre Mi</a>
+          <a href="#" data-text="PROJECT" id="project-link" onclick="audio_aire.play()">Proyectos</a>
         </div>
         <aside id="aside-menu" class="social-media-links">
           <a
@@ -341,8 +342,22 @@
     </div>
 
       <div id="project">
+
         <div class="main-header">
           Proyectos
+          <br/>
+          <br/>
+          <div class="text-center wow fadeInUp" style="margin-bottom: 10px">
+            <div class="badge badge-subhead"></div>
+          </div>
+          <div class="filterable-button " data-toggle="selected">
+            
+            <button class="btn btn-theme-outline selected" data-categories="all" onclick="audio_click.play()">All</button>
+            <button class="btn btn-theme-outline" data-categories="engineer" onclick="audio_click.play()">Apps</button>
+            <button class="btn btn-theme-outline" data-categories="developer" onclick="audio_click.play()">Template</button>
+          </div>
+
+
           <div class="project-main">
             <div class="card">
               <figure class="card__thumb">
@@ -398,7 +413,7 @@
               </figure>
             </div>
 
-            <div class="card">
+            <div class="card engineer">
               <figure class="card__thumb">
                 <video class="video__container" autoplay muted loop>
                   <source src="video/dashcovid.mp4" type="video/mp4" />
@@ -445,7 +460,7 @@
               </figure>
             </div>
 
-            <div class="card">
+            <div class="card developer">
               <figure class="card__thumb">
                 <video class="video__container" autoplay muted loop>
                   <source src="video/apimap.mp4" type="video/mp4" />

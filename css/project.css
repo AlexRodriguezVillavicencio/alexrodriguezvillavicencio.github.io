@@ -81,9 +81,8 @@
     padding: 7px 0px;
     font-weight: 600;
     background: transparent;
-    color: red;
+    color: rgb(255, 0, 0);
     transition: all .4s ease;
-    outline: none;
     width: 170px;
     border-radius: 7px;
     border: 1.5px solid #e60847;
@@ -92,5 +91,10 @@
     position: relative;
     transition: all .4s ease;
     text-align: center;
-    align-items: center;
+}
+
+.card__button:hover{
+    background-color: rgba(150, 0, 0, 0.301);
+    color: aliceblue;
+    font-weight: 900;
 }
