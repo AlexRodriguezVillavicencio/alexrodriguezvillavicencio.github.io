@@ -124,6 +124,7 @@ p{
         width: 100%;
         padding-bottom: 10px;
         cursor: pointer;
+        z-index: 1000;
         background-color: black;
     }
     #home-link{

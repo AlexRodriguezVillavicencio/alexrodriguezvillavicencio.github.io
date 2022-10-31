@@ -24,6 +24,8 @@
     align-items: center;
     margin-top: 10%;
     flex-direction: column;
+    height: 500px;
+    justify-content: center;
 }
 
 #home .secondline{
