@@ -1,63 +1,90 @@
-#about{
-    display: none;
+#about {
+  display: none;
 }
 
-.color{
-    color: #FF0000;
-    transition: all .4s ease;
-    font-size: 25px;
+.color {
+  color: #ff0000;
+  transition: all 0.4s ease;
+  font-size: 25px;
 }
 
-.main-header{
-    height: auto;
-    width: 100%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-size: 37px;
-    font-family: raleway;
-    transition: all .4s ease;
-    color: whitesmoke;
-    padding-bottom: 60px;
-    padding-top: 10px;
-    font-weight: 600;
+.main-header {
+  height: auto;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 37px;
+  font-family: raleway;
+  transition: all 0.4s ease;
+  color: whitesmoke;
+  padding-bottom: 60px;
+  padding-top: 10px;
+  font-weight: 600;
 }
-.main-header .color{
-    font-size: 37px;
+.main-header .color {
+  font-size: 37px;
 }
 
-.header-caption{
-    opacity:.8;
-    display: block;
-    font-size: 25px;
-    font-family: raleway;
-    padding: 8px;
-    color: whitesmoke;
-    font-weight: 400;
+.header-caption {
+  opacity: 0.8;
+  display: block;
+  font-size: 25px;
+  font-family: raleway;
+  padding: 8px;
+  color: whitesmoke;
+  font-weight: 400;
 }
-.about-main{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap: 20px;
-    align-items: center;
-    color: whitesmoke;  
-    margin-top: 10px;
-    padding-bottom: 10px;
+.about-main {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+  color: whitesmoke;
+  margin-top: 10px;
+  padding-bottom: 10px;
 }
-.about-first-paragraph{
-    width: 55%;  
-    max-width: 768px; 
-    margin-left: 5%;
-    padding-right: 20px;
+.about-first-paragraph {
+  width: 55%;
+  max-width: 768px;
+  margin-left: 5%;
+  padding-right: 20px;
 }
-.about-first-paragraph .color{
-    font-size: 16px;
+.about-first-paragraph .color {
+  font-size: 16px;
 }
-.about-second-line{
-    font-family: Roboto;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 1.5em;
-    text-align: justify;
+.about-second-line {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.about_review {
+  width: 40%;
+  margin-top: 20px;
+  z-index: 100;
+  background-color: rgb(0, 0, 0);
+}
+.extends_education{
+    width: 40%;
+}
+
+@media (max-width: 768px){
+    .about_review {
+        width: 95%;
+      }
+    .extends_education{
+        width: 95%;
+    }
+    .about-first-paragraph {
+        width: 95%;
+        margin-left: 0;
+        padding-right: 0;
+      }
+    .main-header{
+        padding-bottom: 20px;
+    }
 }
