@@ -72,6 +72,31 @@
 .extends_education{
     width: 40%;
 }
+.container-tech{
+  width: 100%; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  padding-bottom: 20px;
+
+}
+
+.subcontainer-tech{
+  width: 20%;
+  min-width: 180px;
+  margin-bottom: 20px;
+}
+
+.title-tech{
+  font-weight: 800;
+  color: #ff0000;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.item-tech{
+  margin-left: 17px;
+}
 
 @media (max-width: 768px){
     .about_review {
