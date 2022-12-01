@@ -18,6 +18,7 @@
     border-radius: 10px;
     clip-path: polygon(100% -1%, 101% 2%, 101% 100%, 100% 101%, -10% 101%, -10% -2%);
     margin-bottom: 40px;
+    overflow: hidden;
 }
 .video__container {
     border-radius: 10px;
@@ -70,7 +71,7 @@
     text-shadow: 0px 1px 5px black;
 }
 .card__snippet {
-    max-height: 150px;
+    max-height: 250px;
     margin: 20px 0;
     overflow: hidden;
     font-size: 16px;
@@ -98,3 +99,46 @@
     color: aliceblue;
     font-weight: 900;
 }
+
+.card2  {
+    position: relative;
+    height: 400px;
+    width: 100%;
+  }
+
+.card2__content {
+    position:absolute;
+    margin: 30px;
+  }
+
+  .flap1 img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    transition: 1s;
+    clip-path: inset(0 50% 0 0);
+    transform: translatex(-50%); 
+  }
+  .flap2 img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    transition: 1s;
+    clip-path: inset(0 0 0 50%);
+    transform: translatex(-50%); 
+  }
+  .card2:hover .flap1 img{
+    transform: translatex(-100%);
+  }
+  
+  .card2:hover .flap2 img{
+    transform: translatex(0%);
+  }
+
+  .card__subtitle{
+    padding-top: 5px;
+    color: red;
+    font-size: 16px;
+  }
