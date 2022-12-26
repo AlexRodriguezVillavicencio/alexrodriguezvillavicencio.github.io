@@ -4,7 +4,8 @@
 
 .project-main {
     height: auto;
-    width: 100%;
+    width: 120%;
+    margin-left: -10%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -14,7 +15,7 @@
     gap: 20px;
 }
 .card {
-    width: 720px;
+    width: 600px;
     border-radius: 10px;
     clip-path: polygon(100% -1%, 101% 2%, 101% 100%, 100% 101%, -10% 101%, -10% -2%);
     margin-bottom: 40px;
@@ -22,7 +23,7 @@
 }
 .video__container {
     border-radius: 10px;
-    height: auto;
+    height: 340px;
     min-height: 100%;
     object-fit: cover;
     width: 100%;
@@ -39,7 +40,7 @@
     }
     .card__caption {
         position: absolute;
-        top: calc(100% - 40px);
+        top: calc(100% - 32px);
         z-index: 1;
         padding: 0 20px;
         color: white;
@@ -88,9 +89,6 @@
     border-radius: 7px;
     border: 1.5px solid #e60847;
     cursor: pointer;
-    overflow: hidden;
-    position: relative;
-    transition: all .4s ease;
     text-align: center;
 }
 
@@ -98,11 +96,12 @@
     background-color: rgba(150, 0, 0, 0.301);
     color: aliceblue;
     font-weight: 900;
+    width: 240px;
 }
 
 .card2  {
     position: relative;
-    height: 400px;
+    height: 340px;
     width: 100%;
   }
 
@@ -142,3 +141,18 @@
     color: red;
     font-size: 16px;
   }
+
+#Dan,
+#Ding,
+#MLing,
+#Sing {
+    display: none;
+    padding-bottom: 30px;
+}
+
+.black-tone{
+    color: black !important;
+}
+.card:hover .black-tone{
+    color: rgb(255, 255, 255) !important;
+}

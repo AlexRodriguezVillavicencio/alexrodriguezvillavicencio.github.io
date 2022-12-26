@@ -28,3 +28,29 @@ particlesJS.load('particles-js', 'json/particles.json', function() {
     elem.style.backgroundPosition = x;
   }
 })();
+
+// projects container
+document.querySelector('#Data-Engineer').addEventListener('click', () =>{
+  document.querySelector('#Dan').style.display = 'none'
+  document.querySelector('#Ding').style.display = 'block'
+  document.querySelector('#MLing').style.display = 'none'
+  document.querySelector('#Sing').style.display = 'none'
+})
+document.querySelector('#Data-Analytics').addEventListener('click', () =>{
+  document.querySelector('#Dan').style.display = 'block'
+  document.querySelector('#Ding').style.display = 'none'
+  document.querySelector('#MLing').style.display = 'none'
+  document.querySelector('#Sing').style.display = 'none'
+})
+document.querySelector('#Software-Engineer').addEventListener('click', () =>{
+  document.querySelector('#Dan').style.display = 'none'
+  document.querySelector('#Ding').style.display = 'none'
+  document.querySelector('#MLing').style.display = 'none'
+  document.querySelector('#Sing').style.display = 'block'
+})
+document.querySelector('#Machine-learning-Engineer').addEventListener('click', () =>{
+  document.querySelector('#Dan').style.display = 'none'
+  document.querySelector('#Ding').style.display = 'none'
+  document.querySelector('#MLing').style.display = 'block'
+  document.querySelector('#Sing').style.display = 'none'
+})
