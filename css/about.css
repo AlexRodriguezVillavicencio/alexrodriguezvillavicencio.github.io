@@ -83,7 +83,7 @@
 .subcontainer-tech{
   width: 20%;
   min-width: 280px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .title-tech{
@@ -101,6 +101,7 @@
   align-items: center;
   gap: 5px;
   height: 35px;
+  margin-left: 30px;
 }
 
 

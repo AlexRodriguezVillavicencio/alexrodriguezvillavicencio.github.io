@@ -85,9 +85,6 @@ body{
 main{
     padding:10%;
 }
-p{
-    color: aliceblue;
-}
 
 #home-link{
     display: none;

@@ -71,37 +71,7 @@ body {
     font-weight: 400;
 }
 
-.fw-bold {
-    font-weight: 700;
-}
 
-.fw-medium {
-    font-weight: 500;
-}
-
-.fw-normal {
-    font-weight: 400;
-}
-
-.fw-light {
-    font-weight: 300;
-}
-
-.fs-large {
-    font-size: 21px;
-}
-
-.fs-normal {
-    font-size: 100%;
-}
-
-.fs-small {
-    font-size: 14px;
-}
-
-a:hover, a:active {
-    color: #2184f5;
-}
 
 /* Image Responsive */
 .img-place {
